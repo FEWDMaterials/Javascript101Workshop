@@ -14,6 +14,9 @@ Please find lecture slides here
 ## [Class Notes](https://github.com/FEWDMaterials/IntroToCoding/tree/master/ClassNotes)
 Pls find class notes for March 3rd 2018 here
 
+## [Class Notes 03/17/2018](https://github.com/FEWDMaterials/Javascript101Workshop/tree/master/ClassNotes/03172018)
+Please find class notes for March 17th 2018 here
+
 ## About Me
 
 ### Taq Karim

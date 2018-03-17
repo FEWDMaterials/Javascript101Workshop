@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head></head>
+	<body>
+		<div class="clock">
+		    <div class="hour">0</div>
+		    <div class="sep">:</div>
+		    <div class="minute">00</div>
+		    <div class="sep">:</div>
+		    <div class="seconds">00</div>
+		    <div class="ampm">AM</div>
+		</div>
+
+		<script>
+			const addTwoNums = (a,b) => {
+				return a + b;
+			}
+			// call above
+			const sum = addTwoNums(1,2)
+			const quadraticFormulat = (a,b,c) => {
+				const inner = b ** 2 - 4 * a * c;
+
+				const det = Math.sqrt(inner)
+
+				return (-1*b + det)/(2*a)
+			}
+
+			const getTimeNow = () => {
+				 const now = new Date();
+				 console.log(now)
+
+				 document.querySelector('.clock').innerHTML = now;
+			}
+
+			setInterval(getTimeNow, 1000)
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

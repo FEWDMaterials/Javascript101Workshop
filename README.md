@@ -23,6 +23,9 @@ Please find class notes for March 31st 2018 here
 ## [Class Notes 04/14/2018](https://github.com/FEWDMaterials/Javascript101Workshop/tree/master/ClassNotes/04142018)
 Please find class notes for April 14th 2018 here
 
+## [Class Notes 06/23/2018](https://github.com/FEWDMaterials/Javascript101Workshop/tree/master/ClassNotes/06232018)
+Please find class notes for April 14th 2018 here
+
 ## About Me
 
 ### Taq Karim

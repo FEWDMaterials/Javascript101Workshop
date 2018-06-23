@@ -17,10 +17,69 @@ Time to code, fam.
 #### Agenda
 Ok game time. Let's learn some **JavaScript**.
 
-* **[Essential Terminology](#essential-terminology)**
 * ** [JavaScript Basics](#javascript-basics)**
+* **[Essential Terminology](#essential-terminology)**
 * **[Getting Started](#getting-started)**
 * **[Types of Variables](#types-of-variables)**
+
+---
+# JavaScript Basics
+
+-
+
+Let's begin by defining what javascript actually is, how we can load javascript into our webpages, and how we can write a few lines of super basic javascript syntax.
+
+-
+
+#### Learning Objectives
+1. What can we do with javascript code?
+2. How can we load javascript code into our browser?
+3. What are the different ways we can store, retrieve, and use data in javascript?
+
+-
+
+#### What is JavaScript
+Originally called **Mocha**, then **LiveScript**, then renamed to **JavaScript**.
+2. It's a subclass of ECMAScript, a standardization maintained by Ecma International
+3. Basically, Ecma is the **Webster's Dictionary** of JavaScript
+
+-
+
+### What can you do with Javascript?
+JavaScript runs in the <strong>browser</strong>, meaning it is used heavily in user-interaction.
+In other words, with javascript, you can...
+
+-
+
+#### Animate stuff
+You can use javascript to create for example an infinite random prop loop.
+<iframe scrolling='no' src='//codepen.io/mottaquikarim/embed/jgIbd/?height=268&theme-id=820&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='min-height: 268px !important;'>See the Pen <a href='http://codepen.io/mottaquikarim/pen/jgIbd/'>jQuery Random Height/Width</a> by Mottaqui Karim (<a href='http://codepen.io/mottaquikarim'>@mottaquikarim</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
+-
+
+#### Allow the user to control stuff
+You can allow the user to take control of a UI element and dictate its state.
+<iframe height="300" src="//jsfiddle.net/2jwnjwfd/1/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+-
+
+#### Mess with people's minds
+This is just a pretty cool masking example that is actually pretty hard to pull off with web dev tech (but can be done, as shown here thanks to javascript).
+(**FYI**: this formed the basis of [this website](http://maveron.com/) that I built back in the day).
+<iframe scrolling='no' src='//codepen.io/mottaquikarim/embed/DABIG/?height=268&theme-id=820&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='min-height: 268px !important;'>See the Pen <a href='http://codepen.io/mottaquikarim/pen/DABIG/'>Mask Effect demo</a> by Mottaqui Karim (<a href='http://codepen.io/mottaquikarim'>@mottaquikarim</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
+-
+
+#### Determine the state of something on a page in real time
+We are using something called conditionals here.
+<iframe width="100%" height="500" style="height: 400px;" src="//jsfiddle.net/hrfq4qrj/1/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+-
+
+#### Load in data dynamically (this is the best one)
+Basically, we can interact with API data without ever reloading the page!
 
 ---
 # Essential Terminology
@@ -127,65 +186,6 @@ Let's build a thermostat.
 2. There is a statement we can run to query current room temperature
 3. There is a statement we can run to start / stop a "heat" source
 
-
----
-# JavaScript Basics
-
--
-
-Let's begin by defining what javascript actually is, how we can load javascript into our webpages, and how we can write a few lines of super basic javascript syntax.
-
--
-
-#### Learning Objectives
-1. What can we do with javascript code?
-2. How can we load javascript code into our browser?
-3. What are the different ways we can store, retrieve, and use data in javascript?
-
--
-
-#### What is JavaScript
-Originally called **Mocha**, then **LiveScript**, then renamed to **JavaScript**.
-2. It's a subclass of ECMAScript, a standardization maintained by Ecma International
-3. Basically, Ecma is the **Webster's Dictionary** of JavaScript
-
--
-
-### What can you do with Javascript?
-JavaScript runs in the <strong>browser</strong>, meaning it is used heavily in user-interaction.
-In other words, with javascript, you can...
-
--
-
-#### Animate stuff
-You can use javascript to create for example an infinite random prop loop.
-<iframe scrolling='no' src='//codepen.io/mottaquikarim/embed/jgIbd/?height=268&theme-id=820&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='min-height: 268px !important;'>See the Pen <a href='http://codepen.io/mottaquikarim/pen/jgIbd/'>jQuery Random Height/Width</a> by Mottaqui Karim (<a href='http://codepen.io/mottaquikarim'>@mottaquikarim</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
--
-
-#### Allow the user to control stuff
-You can allow the user to take control of a UI element and dictate its state.
-<iframe height="300" src="//jsfiddle.net/2jwnjwfd/1/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
--
-
-#### Mess with people's minds
-This is just a pretty cool masking example that is actually pretty hard to pull off with web dev tech (but can be done, as shown here thanks to javascript).
-(**FYI**: this formed the basis of [this website](http://maveron.com/) that I built back in the day).
-<iframe scrolling='no' src='//codepen.io/mottaquikarim/embed/DABIG/?height=268&theme-id=820&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='min-height: 268px !important;'>See the Pen <a href='http://codepen.io/mottaquikarim/pen/DABIG/'>Mask Effect demo</a> by Mottaqui Karim (<a href='http://codepen.io/mottaquikarim'>@mottaquikarim</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
--
-
-#### Determine the state of something on a page in real time
-We are using something called conditionals here.
-<iframe width="100%" height="500" style="height: 400px;" src="//jsfiddle.net/hrfq4qrj/1/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
--
-
-#### Load in data dynamically (this is the best one)
-Basically, we can interact with API data without ever reloading the page!
 
 ---
 # Getting Started
